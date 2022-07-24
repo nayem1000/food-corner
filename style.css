@@ -1,0 +1,98 @@
+/* header part Start  */
+.header-top{
+    background-image: url(img/top-bg.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+}
+.menu{
+    text-align: center;
+}
+.menu > a{
+    text-decoration: none;
+    color: black;
+    font-size: 700;
+    margin: 15px;
+    padding: 10px;
+}
+.menu > a:hover{
+    background-color: blueviolet;
+    border-radius: 25px;
+    transition: 5s;
+}
+.top-banner{
+    background-image: url(img/one-bg.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+    display: flex;
+}
+.top-banner-left{
+    font-size: 24px;
+    width: 50%;
+    margin-left: 15px;
+}
+.button{
+    background-color: orangered;
+    padding: 10px;
+    font-size: 20px;
+    color: bisque;
+    border-radius: 25px;
+    border-style: hidden;
+}
+.button:hover{
+    background-color: rgb(78, 28, 9);
+
+
+}
+.top-banner-right{
+    width: 50%;
+}
+.top-banner-right > img{
+    width: 100%;
+}
+/* header part End */
+/* secend banner start  */
+
+.secend-banner{
+    background-image: url(img/two-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+    display: flex;
+
+}
+.secend-banner-right{
+    width: 50%;
+}
+.secend-banner-right > img{
+    width: 43%;
+    margin-left: 10px;
+    padding: 5px;
+
+}
+/* secend banner End  */
+/* thard banner start  */
+
+.thard-banner{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin-top: 20px;
+}
+.thard-banner-all{
+    background-colo
+    width: 90%;
+    margin: 10px;
+    margin-left: 20px;
+    
+}
+.thard-banner-all > img{
+    width: 100%;
+    
+}
+
+
+
+
+
+/* thard banner End  */
